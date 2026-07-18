@@ -1,4 +1,4 @@
-# Adeeb AI Voice Interview Agent WebApp
+# Adeeb AI Voice Interview Agent Desktop 
 
 Adeeb AI Voice Interview Agent is a Windows-based web application for running AI-assisted voice interviews through a local browser interface. It creates a private Python environment, installs version-locked dependencies, starts the application on port `8000`, and can optionally create a temporary Cloudflare link for access from another device.
 
