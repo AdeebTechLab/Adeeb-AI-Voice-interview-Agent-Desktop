@@ -1,0 +1,109 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+*.env
+
+# Google Cloud / API Credentials
+credentials/
+*.json
+service-account*.json
+gcp*.json
+google*.json
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.conda/
+
+# Pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+*.log.*
+server.log
+
+# =========================
+# Local Data
+# =========================
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Models / AI Files
+# =========================
+models/
+*.bin
+*.gguf
+*.pt
+*.pth
+*.safetensors
+
+# =========================
+# IDE Files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Node (if frontend exists)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# =========================
+# Cloudflare / Tunnels
+# =========================
+.cloudflared/
+*.pem
+*.key
+
+# =========================
+# Uploads / Recordings
+# =========================
+uploads/
+recordings/
+audio/
+videos/
+
+# =========================
+# Build Files
+# =========================
+dist/
+build/
+.cache/
